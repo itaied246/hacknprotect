@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c5b08e6-e096-4f70-85be-1924192c3a7f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hackandprotect/core.clj" afterPath="$PROJECT_DIR$/src/hackandprotect/core.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/hackandprotect/core_test.clj" afterPath="$PROJECT_DIR$/test/hackandprotect/core_test.clj" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,21 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hackandprotect/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="320">
+              <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -39,8 +30,8 @@
       <file leaf-file-name="core_test.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/hackandprotect/core_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="580">
+              <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -54,9 +45,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test/hackandprotect/core_test.clj" />
         <option value="$PROJECT_DIR$/src/hackandprotect/core.clj" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -83,6 +74,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -133,14 +126,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
-  <component name="ReplState" timestamp="1495813648314">{:repl-history {:ide [], :local [{:command &quot;(+ 5 2)&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(map inc [2 5 7])&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(+ 2 5)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(+ 5 \n   6\n   7)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(doc bit-xor\n     )&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(bit-xor \&quot;a\&quot; \&quot;b\&quot;\n         )&quot;, :offset 26, :ns &quot;user&quot;} {:command &quot;(bit-xor 1 1\n         \n         )&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(bit-xor 0 1)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(bit-xor 2 1)&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(bit-xor 3\n         1)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(int (first \&quot;Itai\n\&quot;))&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(add 5 (int (first \&quot;Itai\&quot;)))&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(+ 5 (int (first \&quot;Itai\&quot;)))&quot;, :offset 2, :ns &quot;user&quot;} {:command &quot;(str (+ 5 (int (first \&quot;Itai\&quot;))))&quot;, :offset 5, :ns &quot;user&quot;} {:command &quot;(comp str char (+ 5 (int (first \&quot;Itai\&quot;))))&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;((comp str char) (+ 5 (int (first \&quot;Itai\&quot;))))&quot;, :offset 2, :ns &quot;user&quot;} {:command &quot;((comp str char) (+ 5 (int (first \&quot;A\&quot;))))&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(add 5 \\A)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(add 5 \n     \\A)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(:require hackandprotect.core)&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(= 5)&quot;, :offset 4, :ns &quot;user&quot;} {:command &quot;(- 5)&quot;, :offset 2, :ns &quot;user&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1495899851548">{:repl-history {:ide [], :local [{:command &quot;(+ 5 2)&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(map inc [2 5 7])&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(+ 2 5)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(+ 5 \n   6\n   7)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(doc bit-xor\n     )&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(bit-xor \&quot;a\&quot; \&quot;b\&quot;\n         )&quot;, :offset 26, :ns &quot;user&quot;} {:command &quot;(bit-xor 1 1\n         \n         )&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(bit-xor 0 1)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(bit-xor 2 1)&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(bit-xor 3\n         1)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(int (first \&quot;Itai\n\&quot;))&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(add 5 (int (first \&quot;Itai\&quot;)))&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(+ 5 (int (first \&quot;Itai\&quot;)))&quot;, :offset 2, :ns &quot;user&quot;} {:command &quot;(str (+ 5 (int (first \&quot;Itai\&quot;))))&quot;, :offset 5, :ns &quot;user&quot;} {:command &quot;(comp str char (+ 5 (int (first \&quot;Itai\&quot;))))&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;((comp str char) (+ 5 (int (first \&quot;Itai\&quot;))))&quot;, :offset 2, :ns &quot;user&quot;} {:command &quot;((comp str char) (+ 5 (int (first \&quot;A\&quot;))))&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(add 5 \\A)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(add 5 \n     \\A)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(:require hackandprotect.core)&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(= 5)&quot;, :offset 4, :ns &quot;user&quot;} {:command &quot;(- 5)&quot;, :offset 2, :ns &quot;user&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -153,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure Application.core_test">
+  <component name="RunManager" selected="Clojure REPL.REPL for hackandprotect">
     <configuration default="false" name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="hackandprotect" />
       <setting name="path" value="$PROJECT_DIR$/src/hackandprotect/core.clj" />
@@ -363,10 +354,11 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.30959752" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" x="65" y="-4" width="1301" height="772" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.30959752" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" x="66" y="-2" width="1301" height="772" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3301887" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -377,7 +369,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -394,6 +385,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/hackandprotect/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/hackandprotect/core_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/hackandprotect/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -414,7 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -425,27 +431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/hackandprotect/core_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hackandprotect/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.nrepl-port">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -453,7 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -461,6 +449,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/hackandprotect/core_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hackandprotect/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
           <folding />
         </state>
       </provider>
