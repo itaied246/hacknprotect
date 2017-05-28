@@ -28,5 +28,9 @@
 
     (testing "with lower case letters"
       (is (= \` (xor 1 \a)))
-      (is (= \a (xor 0 \a))))))
+      (is (= \a (xor 0 \a)))))
+
+  (testing "execute"
+    (is (= "bbbbb" (execute add 1 0 5 "aaaaa")))
+    (is (= "bbbaa" (execute add 1 0 3 "aaaaa")))))
 

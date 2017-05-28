@@ -23,3 +23,13 @@
                  :subtract subtract
                  :xor xor
                  })
+
+(defn execute
+  [op param start length stream]
+  (apply str (map (partial op param) stream)))
+
+{
+ :op-code :add
+ :op-param 5
+ :length 5
+ }
