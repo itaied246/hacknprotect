@@ -30,8 +30,8 @@
       (is (= \` (xor 1 \a)))
       (is (= \a (xor 0 \a)))))
 
-  (testing "execute"
-    (is (= "aaabb" (execute add 1 3 2 "aaaaa")))
-    (is (= "abbbb" (execute subtract 1 0 1 "bbbbb"))))
+  (testing "encryption-step"
+    (is (= "aaabb" (encryption-step add 1 3 2 "aaaaa")))
+    (is (= "abbbb" (encryption-step subtract 1 0 1 "bbbbb"))))
   )
 
