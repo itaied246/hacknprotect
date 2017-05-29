@@ -31,6 +31,7 @@
       (is (= \a (xor 0 \a)))))
 
   (testing "execute"
-    (is (= "bbbbb" (execute add 1 0 5 "aaaaa")))
-    (is (= "bbbaa" (execute add 1 0 3 "aaaaa")))))
+    (is (= "aaabb" (execute add 1 3 2 "aaaaa")))
+    (is (= "abbbb" (execute subtract 1 0 1 "bbbbb"))))
+  )
 

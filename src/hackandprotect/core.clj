@@ -1,4 +1,5 @@
-(ns hackandprotect.core)
+(ns hackandprotect.core
+  (:require [hackandprotect.utils :refer :all]))
 
 (defn add
   "Given a character and a number,
@@ -19,17 +20,17 @@
   (char (bit-xor n (int c))))
 
 (def operations {
-                 :add add
+                 :add      add
                  :subtract subtract
-                 :xor xor
+                 :xor      xor
                  })
 
 (defn execute
   [op param start length stream]
-  (apply str (map (partial op param) stream)))
+  (map-in-str (partial op param) stream start length))
 
 {
- :op-code :add
+ :op-code  :add
  :op-param 5
- :length 5
+ :length   5
  }
