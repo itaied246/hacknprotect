@@ -36,6 +36,7 @@
 
   (testing "encryption-step overlapping"
     (is (= "c" (encryption-step add 1 0 2 "a")))
-    (is (= "ac" (encryption-step add 1 1 2 "aa"))))
+    (is (= "ac" (encryption-step add 1 1 2 "aa")))
+    (is (= "ddd" (encryption-step add 1 0 9 "aaa"))))
   )
 

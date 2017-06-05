@@ -26,10 +26,10 @@
   from start for length chars."
   [op param start length stream]
   (let [applied-op (partial op param)
-        max-length (min length (- (count stream) start))
-        applied-stream (map-in-str applied-op stream start max-length)]
-    (if (> length max-length)
-      (str/reverse (encryption-step op param 0 (- length max-length) (str/reverse applied-stream)))
+        valid-length (min length (- (count stream) start))
+        applied-stream (map-in-str applied-op stream start valid-length)]
+    (if (> length valid-length)
+      (str/reverse (encryption-step op param 0 (- length valid-length) (str/reverse applied-stream)))
       applied-stream)))
 
 (def operations {
