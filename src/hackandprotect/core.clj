@@ -1,5 +1,6 @@
 (ns hackandprotect.core
-  (:require [hackandprotect.utils :refer :all]))
+  (:require [hackandprotect.utils :refer :all])
+  (:require [clojure.string :as str]))
 
 (defn add
   "Given a character and a number,
@@ -24,7 +25,12 @@
   execute the operation with the given parameter on the part of the stream
   from start for length chars."
   [op param start length stream]
-  (map-in-str (partial op param) stream start length))
+  (let [applied-op (partial op param)
+        max-length (min length (- (count stream) start))
+        applied-stream (map-in-str applied-op stream start max-length)]
+    (if (> length (count stream))
+      (str/reverse (encryption-step op param 0 (- length max-length) (str/reverse applied-stream)))
+      applied-stream)))
 
 (def operations {
                  :add      add

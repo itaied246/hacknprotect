@@ -33,5 +33,9 @@
   (testing "encryption-step"
     (is (= "aaabb" (encryption-step add 1 3 2 "aaaaa")))
     (is (= "abbbb" (encryption-step subtract 1 0 1 "bbbbb"))))
+
+  (testing "encryption-step overlapping"
+    (is (= "c" (encryption-step add 1 0 2 "a")))
+    (is (= "ac" (encryption-step add 1 1 2 "aa"))))
   )
 

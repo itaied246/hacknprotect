@@ -13,6 +13,10 @@
     (is (= "abbba" (map-in-str (partial add 1)
                                "aaaaa"
                                1
+                               3)))
+    (is (= "aabbb" (map-in-str (partial add 1)
+                               "aaaaa"
+                               2
                                3))))
   )
 
