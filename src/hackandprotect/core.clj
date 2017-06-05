@@ -28,7 +28,7 @@
   (let [applied-op (partial op param)
         max-length (min length (- (count stream) start))
         applied-stream (map-in-str applied-op stream start max-length)]
-    (if (> length (count stream))
+    (if (> length max-length)
       (str/reverse (encryption-step op param 0 (- length max-length) (str/reverse applied-stream)))
       applied-stream)))
 
