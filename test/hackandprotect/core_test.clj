@@ -38,5 +38,15 @@
     (is (= "c" (encryption-step add 1 0 2 "a")))
     (is (= "ac" (encryption-step add 1 1 2 "aa")))
     (is (= "ddd" (encryption-step add 1 0 9 "aaa"))))
+
+  (testing "encryption vector"
+    (is (= "bbcccc" (encrypt [{:op-code :add
+                               :op-param 1
+                               :length 2}
+                              {
+                               :op-code :add
+                               :op-param 2
+                               :length 4
+                               }] "aaaaaa"))))
   )
 

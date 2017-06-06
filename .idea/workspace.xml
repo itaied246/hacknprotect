@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c5b08e6-e096-4f70-85be-1924192c3a7f" name="Default" comment="Fix end condition">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__cider_cider_nrepl_0_13_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_tcrawley_dynapath_0_2_4.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hackandprotect.iml" afterPath="$PROJECT_DIR$/hackandprotect.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hackandprotect/core.clj" afterPath="$PROJECT_DIR$/src/hackandprotect/core.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/hackandprotect/core_test.clj" afterPath="$PROJECT_DIR$/test/hackandprotect/core_test.clj" />
     </list>
@@ -23,8 +27,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hackandprotect/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="282">
+              <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -33,8 +37,8 @@
       <file leaf-file-name="core_test.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/hackandprotect/core_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+            <state relative-caret-position="714">
+              <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -44,6 +48,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -57,10 +66,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1431" />
-    <option name="y" value="-4" />
-    <option name="width" value="1615" />
-    <option name="height" value="1054" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -80,46 +89,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hackandprotect" />
+              <option name="myItemId" value="hacknprotect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hackandprotect" />
+              <option name="myItemId" value="hacknprotect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hackandprotect" />
+              <option name="myItemId" value="hacknprotect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hackandprotect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackandprotect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackandprotect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackandprotect" />
+              <option name="myItemId" value="hacknprotect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -139,8 +130,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="cursive.last.file.extension./home/itai/IdeaProjects/hackandprotect/src" value="clj" />
     <property name="cursive.last.file.extension./home/itai/IdeaProjects/hackandprotect/test" value="clj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="ReplState" timestamp="1496694481358">{:repl-history {:ide [], :local [{:command &quot;(docs subs)&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(+ 5 2)&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(map inc [2 5 7])&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(+ 2 5)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(+ 5 \n   6\n   7)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(doc bit-xor\n     )&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(bit-xor \&quot;a\&quot; \&quot;b\&quot;\n         )&quot;, :offset 26, :ns &quot;user&quot;} {:command &quot;(bit-xor 1 1\n         \n         )&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(bit-xor 0 1)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(bit-xor 2 1)&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(bit-xor 3\n         1)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(int (first \&quot;Itai\n\&quot;))&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(add 5 (int (first \&quot;Itai\&quot;)))&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(+ 5 (int (first \&quot;Itai\&quot;)))&quot;, :offset 2, :ns &quot;user&quot;} {:command &quot;(str (+ 5 (int (first \&quot;Itai\&quot;))))&quot;, :offset 5, :ns &quot;user&quot;} {:command &quot;(comp str char (+ 5 (int (first \&quot;Itai\&quot;))))&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;((comp str char) (+ 5 (int (first \&quot;Itai\&quot;))))&quot;, :offset 2, :ns &quot;user&quot;} {:command &quot;((comp str char) (+ 5 (int (first \&quot;A\&quot;))))&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(add 5 \\A)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(add 5 \n     \\A)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(:require hackandprotect.core)&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(= 5)&quot;, :offset 4, :ns &quot;user&quot;} {:command &quot;(- 5)&quot;, :offset 2, :ns &quot;user&quot;} {:command &quot;(+ 5 2\n   )&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(bit-xor (int \\a) (int \\b))&quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(char (bit-xor (int \\a) (int \\b)))&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(bit-xor (int \\a) 1)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(char 96)&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(bit-xor (int \\A) 1)&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(char 64)&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(char 96\n      )&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(str (\\b \\b \\b))&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(str '(\\b \\b \\b))&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(apply str '(\\b \\b \\b))&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(apply str (map #(char (+ 1 (int %))) \&quot;abc\&quot;))&quot;, :offset 42, :ns &quot;user&quot;} {:command &quot; (map (partial + 1) [1 2 3]) &quot;, :offset 26, :ns &quot;user&quot;} {:command &quot;(nth \&quot;abc\&quot; 0)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(nth \&quot;abc\&quot; 1)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(assoc \&quot;abc\&quot; 1 \\c)&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(assoc (seq \&quot;abc\&quot;) 1 \\c)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(assoc (vec \&quot;abc\&quot;) 1 \\c)&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(str (assoc (vec \&quot;abc\&quot;) 1 \\c))&quot;, :offset 5, :ns &quot;user&quot;} {:command &quot;(apply str (assoc (vec \&quot;abc\&quot;) 1 \\c))&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(dotimes [n 3] (assoc (vec \&quot;abc\&quot;) n \\k))&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(subs \&quot;aaaaa\&quot; 0 3)&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(\&quot;abc\&quot; 0)&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(:0 \&quot;abc\&quot;)&quot;, :offset 4, :ns &quot;user&quot;} {:command &quot;(0 \&quot;abc\&quot;)&quot;, :offset 2, :ns &quot;user&quot;} {:command &quot;(nth 1 \&quot;abc\&quot;)&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(get 1 \&quot;abc\&quot;)&quot;, :offset 4, :ns &quot;user&quot;} {:command &quot;(get \&quot;abc\&quot; 1)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(aset-char (vec \&quot;abc\&quot;) 1 \\k)&quot;, :offset 27, :ns &quot;user&quot;} {:command &quot;((fn [op start length] (map-indexed (fn [i m] (if (&lt;= start i length)\n                         (op m)\n                         m) \&quot;aaaaa\&quot;)))\n  #(char (+ n (int c)))\n  2\n  4)&quot;, :offset 172, :ns &quot;user&quot;} {:command &quot;((fn [op start length] (map-indexed (fn [i m] (if (&lt;= start i length)\n                         (op m)\n                         m) \&quot;aaaaa\&quot;)))\n  #(char (+ 1 (int %)))\n  2\n  4)&quot;, :offset 161, :ns &quot;user&quot;} {:command &quot;((fn [op start length] (map-indexed (fn [i m] (if (&lt;= start i length)\n                         (op m)\n                         m)) \&quot;aaaaa\&quot;))\n  #(char (+ 1 (int %)))\n  2\n  4)&quot;, :offset 131, :ns &quot;user&quot;} {:command &quot;((fn [op start length] (map-indexed (fn [i m] (if (&lt;= start i length)\n                         (op m)\n                         m)) \&quot;aaaaa\&quot;))\n  #(char (+ 1 (int %)))\n  1\n  4)&quot;, :offset 168, :ns &quot;user&quot;} {:command &quot;((fn [op start length] (map-indexed (fn [i m] (if (&lt;= start i length)\n                         (op m)\n                         m)) \&quot;aaaaa\&quot;))\n  #(char (+ 1 (int %)))\n  1\n  3)&quot;, :offset 172, :ns &quot;user&quot;} {:command &quot;(subs \&quot;aa\&quot; 3)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(doc subs)&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(subs \&quot;aaaaa\&quot; 5)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(subs \&quot;aaaaa\&quot; 4)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(- length max-length)&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(defn foo \n  [op stream]\n  (let [applied-op (partial op \&quot;O\&quot;)\n        applied-stream (applied-op stream)]\n    (if true\n      (str/reverse (foo op applied-stream)))))&quot;, :offset 164, :ns &quot;user&quot;} {:command &quot;(defn foo \n  [op stream]\n  (let [applied-op (partial op \&quot;O\&quot;)\n        applied-stream (applied-op stream)]\n    (if (&gt; (count stream) 10)\n      stream\n      (str/reverse (foo op applied-stream)))))&quot;, :offset 147, :ns &quot;user&quot;} {:command &quot;(foo str \&quot;abc\&quot;)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(encryption-step add 1 1 2 \&quot;aa\&quot;)&quot;, :offset 32, :ns &quot;user&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1496775169597">{:repl-history {:ide [], :local [{:command &quot;(docs subs)&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(+ 5 2)&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(map inc [2 5 7])&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(+ 2 5)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(+ 5 \n   6\n   7)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(doc bit-xor\n     )&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(bit-xor \&quot;a\&quot; \&quot;b\&quot;\n         )&quot;, :offset 26, :ns &quot;user&quot;} {:command &quot;(bit-xor 1 1\n         \n         )&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(bit-xor 0 1)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(bit-xor 2 1)&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(bit-xor 3\n         1)&quot;, :offset 20, :ns &quot;user&quot;} {:command &quot;(int (first \&quot;Itai\n\&quot;))&quot;, :offset 18, :ns &quot;user&quot;} {:command &quot;(add 5 (int (first \&quot;Itai\&quot;)))&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(+ 5 (int (first \&quot;Itai\&quot;)))&quot;, :offset 2, :ns &quot;user&quot;} {:command &quot;(str (+ 5 (int (first \&quot;Itai\&quot;))))&quot;, :offset 5, :ns &quot;user&quot;} {:command &quot;(comp str char (+ 5 (int (first \&quot;Itai\&quot;))))&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;((comp str char) (+ 5 (int (first \&quot;Itai\&quot;))))&quot;, :offset 2, :ns &quot;user&quot;} {:command &quot;((comp str char) (+ 5 (int (first \&quot;A\&quot;))))&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(add 5 \\A)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(add 5 \n     \\A)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(:require hackandprotect.core)&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(= 5)&quot;, :offset 4, :ns &quot;user&quot;} {:command &quot;(- 5)&quot;, :offset 2, :ns &quot;user&quot;} {:command &quot;(+ 5 2\n   )&quot;, :offset 10, :ns &quot;user&quot;} {:command &quot;(bit-xor (int \\a) (int \\b))&quot;, :offset 25, :ns &quot;user&quot;} {:command &quot;(char (bit-xor (int \\a) (int \\b)))&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(bit-xor (int \\a) 1)&quot;, :offset 19, :ns &quot;user&quot;} {:command &quot;(char 96)&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(bit-xor (int \\A) 1)&quot;, :offset 16, :ns &quot;user&quot;} {:command &quot;(char 64)&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(char 96\n      )&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(str (\\b \\b \\b))&quot;, :offset 14, :ns &quot;user&quot;} {:command &quot;(str '(\\b \\b \\b))&quot;, :offset 6, :ns &quot;user&quot;} {:command &quot;(apply str '(\\b \\b \\b))&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(apply str (map #(char (+ 1 (int %))) \&quot;abc\&quot;))&quot;, :offset 42, :ns &quot;user&quot;} {:command &quot; (map (partial + 1) [1 2 3]) &quot;, :offset 26, :ns &quot;user&quot;} {:command &quot;(nth \&quot;abc\&quot; 0)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(nth \&quot;abc\&quot; 1)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(assoc \&quot;abc\&quot; 1 \\c)&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(assoc (seq \&quot;abc\&quot;) 1 \\c)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(assoc (vec \&quot;abc\&quot;) 1 \\c)&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(str (assoc (vec \&quot;abc\&quot;) 1 \\c))&quot;, :offset 5, :ns &quot;user&quot;} {:command &quot;(apply str (assoc (vec \&quot;abc\&quot;) 1 \\c))&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(dotimes [n 3] (assoc (vec \&quot;abc\&quot;) n \\k))&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(subs \&quot;aaaaa\&quot; 0 3)&quot;, :offset 17, :ns &quot;user&quot;} {:command &quot;(\&quot;abc\&quot; 0)&quot;, :offset 8, :ns &quot;user&quot;} {:command &quot;(:0 \&quot;abc\&quot;)&quot;, :offset 4, :ns &quot;user&quot;} {:command &quot;(0 \&quot;abc\&quot;)&quot;, :offset 2, :ns &quot;user&quot;} {:command &quot;(nth 1 \&quot;abc\&quot;)&quot;, :offset 11, :ns &quot;user&quot;} {:command &quot;(get 1 \&quot;abc\&quot;)&quot;, :offset 4, :ns &quot;user&quot;} {:command &quot;(get \&quot;abc\&quot; 1)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(aset-char (vec \&quot;abc\&quot;) 1 \\k)&quot;, :offset 27, :ns &quot;user&quot;} {:command &quot;((fn [op start length] (map-indexed (fn [i m] (if (&lt;= start i length)\n                         (op m)\n                         m) \&quot;aaaaa\&quot;)))\n  #(char (+ n (int c)))\n  2\n  4)&quot;, :offset 172, :ns &quot;user&quot;} {:command &quot;((fn [op start length] (map-indexed (fn [i m] (if (&lt;= start i length)\n                         (op m)\n                         m) \&quot;aaaaa\&quot;)))\n  #(char (+ 1 (int %)))\n  2\n  4)&quot;, :offset 161, :ns &quot;user&quot;} {:command &quot;((fn [op start length] (map-indexed (fn [i m] (if (&lt;= start i length)\n                         (op m)\n                         m)) \&quot;aaaaa\&quot;))\n  #(char (+ 1 (int %)))\n  2\n  4)&quot;, :offset 131, :ns &quot;user&quot;} {:command &quot;((fn [op start length] (map-indexed (fn [i m] (if (&lt;= start i length)\n                         (op m)\n                         m)) \&quot;aaaaa\&quot;))\n  #(char (+ 1 (int %)))\n  1\n  4)&quot;, :offset 168, :ns &quot;user&quot;} {:command &quot;((fn [op start length] (map-indexed (fn [i m] (if (&lt;= start i length)\n                         (op m)\n                         m)) \&quot;aaaaa\&quot;))\n  #(char (+ 1 (int %)))\n  1\n  3)&quot;, :offset 172, :ns &quot;user&quot;} {:command &quot;(subs \&quot;aa\&quot; 3)&quot;, :offset 12, :ns &quot;user&quot;} {:command &quot;(doc subs)&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(subs \&quot;aaaaa\&quot; 5)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(subs \&quot;aaaaa\&quot; 4)&quot;, :offset 15, :ns &quot;user&quot;} {:command &quot;(- length max-length)&quot;, :offset 21, :ns &quot;user&quot;} {:command &quot;(defn foo \n  [op stream]\n  (let [applied-op (partial op \&quot;O\&quot;)\n        applied-stream (applied-op stream)]\n    (if true\n      (str/reverse (foo op applied-stream)))))&quot;, :offset 164, :ns &quot;user&quot;} {:command &quot;(defn foo \n  [op stream]\n  (let [applied-op (partial op \&quot;O\&quot;)\n        applied-stream (applied-op stream)]\n    (if (&gt; (count stream) 10)\n      stream\n      (str/reverse (foo op applied-stream)))))&quot;, :offset 147, :ns &quot;user&quot;} {:command &quot;(foo str \&quot;abc\&quot;)&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;(encryption-step add 1 1 2 \&quot;aa\&quot;)&quot;, :offset 32, :ns &quot;user&quot;} &quot;(doc reduce)&quot;], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -153,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure Application.core_test">
+  <component name="RunManager" selected="Clojure REPL.REPL for hackandprotect">
     <configuration default="false" name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="hackandprotect" />
       <setting name="path" value="$PROJECT_DIR$/src/hackandprotect/core.clj" />
@@ -227,6 +219,22 @@
       <setting name="params" value="" />
       <setting name="workDir" value="" />
       <setting name="repl" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -402,31 +410,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1431" y="-4" width="1615" height="1054" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.30959752" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" x="65" y="-4" width="1301" height="772" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3301887" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5026495" order="11" side_tool="true" content_ui="tabs" x="770" y="364" width="287" height="232" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.49735048" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24410452" sideWeight="0.49371633" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25208175" sideWeight="0.49371633" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24984066" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24410452" sideWeight="0.50628364" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -447,7 +455,43 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/hackandprotect/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/hackandprotect/core_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hackandprotect/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/hackandprotect/core_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/hackandprotect/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -494,20 +538,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.nrepl-port">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.hgignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.nrepl-port" />
+    <entry file="file://$PROJECT_DIR$/.hgignore" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -519,38 +551,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cider/cider-nrepl/0.13.0/cider-nrepl-0.13.0.jar!/cider/nrepl/middleware/track_state.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cider/cider-nrepl/0.13.0/cider-nrepl-0.13.0.jar!/cider/nrepl/middleware/track_state.clj" />
     <entry file="file://$PROJECT_DIR$/src/hackandprotect/utils.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/hackandprotect/core_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+        <state relative-caret-position="714">
+          <caret line="42" column="44" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hackandprotect/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="20" />
+        <state relative-caret-position="282">
+          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding />
         </state>
       </provider>
