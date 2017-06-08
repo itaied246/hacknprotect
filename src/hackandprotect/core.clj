@@ -32,6 +32,10 @@
       (str/reverse (encryption-step op param 0 (- length valid-length) (str/reverse applied-stream)))
       applied-stream)))
 
+(defn encrypt
+  [vec stream]
+  stream)
+
 (def operations {
                  :add      add
                  :subtract subtract
