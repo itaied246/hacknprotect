@@ -66,6 +66,20 @@
                               {:op-code   :subtract
                                :op-param 2
                                :length   3}]
-                             "ddddaaa"))))
+                             "ddddaaa")))
+    (is (= "aaaaaaaaaaeeeeehhhhhhhhhgggghh"
+           (decrypt [{:op-code  :add
+                      :op-param 5
+                      :length   10}
+                     {:op-code  :add
+                      :op-param 1
+                      :length   5}
+                     {:op-code  :subtract
+                      :op-param 2
+                      :length   9}
+                     {:op-code  :subtract
+                      :op-param 1
+                      :length   8}]
+                    "ffffffffffffffffffffffffffffff"))))
   )
 
