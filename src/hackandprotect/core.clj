@@ -32,18 +32,37 @@
       (str/reverse (encryption-step op param 0 (- length valid-length) (str/reverse applied-stream)))
       applied-stream)))
 
+(def op-codes
+  {
+   :add      add
+   :subtract subtract
+   :xor      xor
+   })
+
 (defn encrypt
   [vec stream]
-  stream)
+  (:stream (reduce (fn [acc step]
+                     {:stream (encryption-step ((:op-code step) op-codes)
+                                               (:op-param step)
+                                               (:start acc)
+                                               (:length step)
+                                               (:stream acc))
+                      :start  (+ (:start acc) (:length step))
+                      })
+                   {
+                    :stream stream
+                    :start  0
+                    } vec)))
 
-(def operations {
-                 :add      add
-                 :subtract subtract
-                 :xor      xor
-                 })
+(defn reverse-encryption-step-op
+  [step]
+  (let [reversed-op-codes {
+                           :add      :subtract
+                           :subtract :add
+                           :xor      :xor
+                           }]
+    (assoc step :op-code (reversed-op-codes (:op-code step)))))
 
-{
- :op-code  :add
- :op-param 5
- :length   5
- }
+(defn decrypt
+  [vec stream]
+  (encrypt (map reverse-encryption-step-op vec) stream))

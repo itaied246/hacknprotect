@@ -39,14 +39,33 @@
     (is (= "ac" (encryption-step add 1 1 2 "aa")))
     (is (= "ddd" (encryption-step add 1 0 9 "aaa"))))
 
-  (testing "encryption vector"
-    (is (= "bbcccc" (encrypt [{:op-code :add
+  (testing "encrypt"
+    (is (= "bbcccc" (encrypt [{:op-code  :add
                                :op-param 1
-                               :length 2}
+                               :length   2}
                               {
-                               :op-code :add
+                               :op-code  :add
                                :op-param 2
-                               :length 4
-                               }] "aaaaaa"))))
+                               :length   4
+                               }]
+                             "aaaaaa")))
+    (is (= "bbeeee" (encrypt [{:op-code  :add
+                               :op-param 1
+                               :length   2}
+                              {
+                               :op-code  :add
+                               :op-param 2
+                               :length   8
+                               }]
+                             "aaaaaa"))))
+
+  (testing "decrypt"
+    (is (= "ccccccc" (decrypt [{:op-code  :add
+                               :op-param 1
+                               :length   4}
+                              {:op-code   :subtract
+                               :op-param 2
+                               :length   3}]
+                             "ddddaaa"))))
   )
 
